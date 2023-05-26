@@ -1,8 +1,33 @@
-import React from 'react'
-import styleContainer from '../common/styles/Container.module.css'
+.footerBlock {
+	background-color: #cca3f3;
+	padding: 50px 0;
+}
 
-export const Footer = () => {
-	return (
-		<></>
-	)
+.footerContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.title{
+	background-color: #b0afaf;
+}
+
+.mainBlock {
+	display: flex;
+	justify-content: space-between;
+	min-width: 280px;
+	background-color: #a3dec9;
+}
+
+.icon {
+	height: 45px;
+	width: 45px;
+	background-color: #a53e3e;
+}
+
+.copyright {
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
 }

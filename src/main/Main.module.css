@@ -1,5 +1,16 @@
-export const Main = () => {
-	return (
-		<></>
-	)
+.mainBlock {
+	height: 100vh;
+	background-color: #f5d0d7;
+}
+
+.greetings {
+	width: 400px;
+	background-color: #e5fdf2;
+	margin-bottom: 20px;
+}
+
+.photo {
+	width: 400px;
+	height: 400px;
+	background-color: #e5fdf2;
 }

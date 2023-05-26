@@ -1,7 +1,21 @@
-import React from 'react'
+.skillsBlock {
+	/*min-height: 100vh;*/
+	background-color: #ffc2a6;
+}
 
-export const Skills = () => {
-	return (
-		<div>1</div>
-	)
+.skillsContainer {
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.title {
+	background-color: #b0afaf;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
 }

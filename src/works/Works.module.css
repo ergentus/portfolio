@@ -1,7 +1,21 @@
-import React from 'react'
+.worksBlock {
+	/*min-height: 100vh;*/
+	background-color: #a3dec9;
+}
 
-export const Works = () => {
-	return (
-		<></>
-	)
+.worksContainer {
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.title {
+	background-color: #b0afaf;
+}
+
+.works {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 100%;
 }

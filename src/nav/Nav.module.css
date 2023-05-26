@@ -1,4 +1,14 @@
-.header {
-	height: 80px;
-	background-color: #90b5fa;
+.navBlock {
+	justify-content: flex-end;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid red;
+	width: 300px;
+}
+
+.nav a {
+	text-decoration: none;
 }

@@ -1,9 +1,39 @@
-import React from 'react'
-
-const Contacts = () => {
-	return (
-		<></>
-	)
+.contactsBlock {
+	/*min-height: 100vh;*/
+	background-color: #ffc2a6;
 }
 
-export default Contacts
+.contactsContainer {
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.title {
+	background-color: #b0afaf;
+}
+
+.formField {
+	text-align: center;
+	min-width: 70%;
+	background-color: #90b5fa;
+	margin-bottom: 20px;
+}
+
+.formField input {
+	margin-bottom: 30px;
+	padding: 5px;
+	width: 100%;
+	height: 40px;
+}
+
+.formField textarea {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 30px;
+	padding: 5px;
+	resize: none;
+}
+
+.formField button {
+	padding: 10px 30px;
+}
