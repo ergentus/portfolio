@@ -1,5 +1,5 @@
-.navBlock {
-	justify-content: flex-end;
+.navContainer {
+	flex-direction: row-reverse;
 }
 
 .nav {
